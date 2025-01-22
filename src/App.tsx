@@ -5,7 +5,7 @@ import NavDrawer from "./components/NavDrawer";
 function App() {
   return (
     <>
-      <main className="flex flex-col items-center justify-center h-screen">
+      <main className="flex flex-col items-center justify-center h-screen bg-gray-600">
         <div className="fixed top-0 right-0 border-red-500">
           <DropdownMenu />
         </div>
