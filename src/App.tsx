@@ -1,3 +1,4 @@
+import { DropdownMenu } from "@radix-ui/react-dropdown-menu";
 import { ModeToggle } from "./components/ModeToggle";
 import NavDrawer from "./components/NavDrawer";
 
@@ -5,6 +6,9 @@ function App() {
   return (
     <>
       <main className="flex flex-col items-center justify-center h-screen">
+        <div className="fixed top-0 right-0 border-red-500">
+          <DropdownMenu />
+        </div>
         <h1 className="text-red-500 text-3xl">4twentydev</h1>
         <ModeToggle />
         <div className="flex justify-between items-center">
